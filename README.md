@@ -1,4 +1,4 @@
-# Raspberry-PI-Home-Assistant
+# Raspberry-PI-Home-Assistant Command Line
 To Check Network Connection Status
 ```ini
 ha network info
