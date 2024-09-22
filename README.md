@@ -11,3 +11,7 @@ To Scan Available WiFi Connections
 ```ini
 ha network scan wlan0
 ```
+To Manually Connect to WiFi Connection
+```ini
+ha network set wlan0 --wifi-mode infrastructure --ipv4-method auto --wifi-auth wpa-psk --wifi-ssid "MY-SSID" --wifi-psk ""MY_PASS
+```
