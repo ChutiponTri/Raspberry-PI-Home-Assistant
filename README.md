@@ -7,3 +7,7 @@ To Setup Auto WiFi Connection for Raspberry PI Home Assistant OS Run This Follow
 ```ini
 ha network update wlan0 --ipv4-method auto --wifi-auth wpa-psk --wifi-mode infrastructure --wifi-ssid "MY-SSID" --wifi-psk "MY_PASS"
 ```
+To Scan Available WiFi Connections
+```ini
+ha network scan wlan0
+```
